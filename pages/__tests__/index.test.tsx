@@ -1,8 +1,4 @@
-// __tests__/index.test.jsx
-
 import { render, screen } from "@testing-library/react";
-
-import "@testing-library/jest-dom";
 import Home from "../index";
 
 describe("Home", () => {
@@ -13,6 +9,6 @@ describe("Home", () => {
       name: /welcome to next\.js!/i,
     });
 
-    expect(heading).toBeInTheDocument();
+    expect(heading).toBeInTheDocument()
   });
 });
