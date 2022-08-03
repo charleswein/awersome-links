@@ -66,3 +66,4 @@ public
 .npm
 
 .DS_Store
+/.husky/
