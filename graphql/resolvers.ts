@@ -2,7 +2,7 @@ import { Context } from "./context";
 
 export const resolvers = {
   Query: {
-    links: async (parent, args, ctx: Context) => {
+    links: async (parent: any, args: any, ctx: Context) => {
       return await ctx.prisma.link.findMany()
     }
   },
